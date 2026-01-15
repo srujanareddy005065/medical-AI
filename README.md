@@ -167,7 +167,7 @@ The system runs as 4 independent services that work together:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/srujanareddy005065/medical-AI>
    cd hackathon15092025
    ```
 
