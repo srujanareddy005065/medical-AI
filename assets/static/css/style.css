@@ -1,0 +1,97 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,600,700,800,900&display=swap');
+
+/* Global Styles */
+* {
+    font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+}
+
+/* Streamlit App Styling */
+.main {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+    font-weight: 600;
+}
+
+/* Text Elements */
+p, span, div, label {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+}
+
+/* Buttons */
+button {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+    font-weight: 500;
+}
+
+/* Input Fields */
+input, textarea, select {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+}
+
+/* Streamlit Specific */
+.stApp {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+}
+
+.stMarkdown {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+}
+
+.stSelectbox {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+}
+
+.stButton > button {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+    font-weight: 500;
+}
+
+.stMetric {
+    font-family: 'Satoshi', system-ui, sans-serif !important;
+}
+
+/* Medical AI Styling */
+.medical-header {
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.feature-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 1px solid #f0f2f6;
+    margin-bottom: 1rem;
+}
+
+.result-success {
+    background: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #28a745;
+}
+
+.result-warning {
+    background: #fff3cd;
+    color: #856404;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #ffc107;
+}
+
+.result-danger {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #dc3545;
+}

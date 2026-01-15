@@ -1,0 +1,11 @@
+# 1. API Server (Port 8503) - Real-time data access
+globalvenv && python api_server.py
+
+# 2. Frontend Dashboard (Port 5173) - Main UI
+cd frontend && npm run dev
+
+# 3. Pregnancy Risk App (Port 8501) - AI Predictions
+globalvenv && cd apps && python -m streamlit run pregnancy_risk_app.py --server.port 8501
+
+# 4. Fetal Plane App (Port 8502) - AI Classifications
+globalvenv && cd apps && python -m streamlit run fetal_plane_app.py --server.port 8502
