@@ -87,6 +87,10 @@ The **Medical AI Dashboard** is a comprehensive healthcare system that combines 
 
 ---
 
+
+
+
+
 ## 🏗️ System Architecture
 
 ### Multi-Service Architecture
@@ -670,5 +674,6 @@ For technical support, feature requests, or contributions:
 ---
 
 **Made with ❤️ for Healthcare Professionals**
-#   m e d i c a l - A I  
+#   m e d i c a l - A I 
+ 
  
